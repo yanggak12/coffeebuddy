@@ -1,1 +1,2 @@
 # Coffee Buddy !
+## Toy Project
