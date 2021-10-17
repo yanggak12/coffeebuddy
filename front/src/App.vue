@@ -4,10 +4,10 @@
       <nav id="nav-router">
         <div id="nav-router-links">
           <router-link to="/" tag="div" id="logo"><img src="../public/logo.png"></router-link>
-          <router-link to="/coffee">Coffee</router-link>
-          <router-link to="/beans">Beans</router-link>
-          <router-link to="/buddy">Buddy</router-link>
-          <router-link to="/community">Community</router-link>
+          <router-link to="/coffee" id="category">Coffee</router-link>
+          <router-link to="/beans" id="category">Beans</router-link>
+          <router-link to="/buddy" id="category">Buddy</router-link>
+          <router-link to="/community" id="category">Community</router-link>
         </div>
       </nav>
       <nav id="nav-sign">
@@ -37,7 +37,7 @@ body{
   overflow-x: hidden;
   letter-spacing: -0.05em;
 }
-a {
+#category {
   color:#996600;
   text-decoration: none;
 }
